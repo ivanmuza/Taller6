@@ -46,9 +46,9 @@ function validarContraseñas(){
 }
 
 function onloadPage() {
-    randomPrefDir();
-    var dir = document.getElementById("dir");
-    dir.addEventListener('change', valDireccion);
+    //randomPrefDir();
+    //var dir = document.getElementById("dir");
+    //dir.addEventListener('change', valDireccion);
     var pass1 = document.getElementById("pass1");
     pass1.addEventListener('change', validarTamContraseña);
     var pass2 = document.getElementById("pass2");
